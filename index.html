@@ -1,89 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md Mamun Ar Rashid | Portfolio</title>   
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Mamun Ar Rashid | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Header Start -->
   <header>
     <div class="container header-inner">
       <a class="logo" href="#home">Md Mamun Ar Rashid</a>
       <nav>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
-           <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <!-- Header End -->
 
   <main>
-
-    <!-- Hero Section-->
-    <section id="home">
-      <div class="container hero">
-        <!-- Left -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
         <div class="hero-text">
-          <h1>Hello, I'm</h1>
-          <h2>Md Mamun Ar Rashid</h2>
-        <p>
-          Meta Ads Specialist & Future Full Stack Web Developer
-        </p>
-        <button>Hire Me</button>     
-        <button>Download CV</button>
-      </div>
-      <!-- Right -->
-      <div class="hero-image">
-        <img src="assets/images/profile image.jpg" alt="Profile Image">       
-      </div>
+          <span class="hero-label">Meta Ads Specialist & Web Developer in training</span>
+          <h1>Hello I'm <strong>Md Mamun Ar Rashid</strong></h1>
+          <p>I build modern websites that look professional and work smoothly on every device.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#contact">Hire Me</a>
+            <a class="btn btn-secondary" href="#portfolio">View Portfolio</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/profile image.jpg" alt="Md Mamun Ar Rashid profile picture">
+        </div>
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="section about-section">
       <div class="container">
-        <h2>About Me</h2>
-        <p>I'm a beginner web developer who is learning HTML, CSS and JavaScript step by step.</p>
+        <div class="section-header">
+          <p class="section-subtitle">About Me</p>
+          <h2>Learning with purpose</h2>
+        </div>
+        <p>I'm a dedicated beginner web developer who is learning HTML, CSS and JavaScript step by step.</p>
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section skills-section">
       <div class="container">
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript, Responsive Design</p>
+        <div class="section-header">
+          <p class="section-subtitle">Skills</p>
+          <h2>What I can do today</h2>
+        </div>
+        <div class="skills-grid">
+          <span class="skill-chip">HTML</span>
+          <span class="skill-chip">CSS</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">Responsive Design</span>
+          <span class="skill-chip">Portfolio Design</span>
+          <span class="skill-chip">Meta Ads</span>
+        </div>
       </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="section services-section">
       <div class="container">
-        <h2>Services</h2>
-        <p>Website Design, Responsive Layout, Fast Performance</p>
+        <div class="section-header">
+          <p class="section-subtitle">Services</p>
+          <h2>How can I help you?</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Landing Pages</h3>
+            <p>Create polished landing pages for personal brands and small businesses.</p>
+          </article>
+          <article class="service-card">
+            <h3>Responsive Layouts</h3>
+            <p>Build websites that look great on desktop, tablet, and mobile devices.</p>
+          </article>
+          <article class="service-card">
+            <h3>Performance Focus</h3>
+            <p>Optimize design and code for faster loading and better user experience.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="section portfolio-section">
       <div class="container">
-        <h2>Portfolio</h2>
-        <p>My recent works and learning projects</p>
+        <div class="section-header">
+          <p class="section-subtitle">Portfolio</p>
+          <h2>Recent Projects</h2>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <h3>Personal Portfolio</h3>
+            <p>A modern website to show skills and learning progress.</p>
+          </article>
+          <article class="portfolio-card">
+            <h3>Landing Page</h3>
+            <p>A clean landing page with strong calls-to-action.</p>
+          </article>
+          <article class="portfolio-card">
+            <h3>Blog Layout</h3>
+            <p>A simple content page for posts and articles.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me for any inquires or collaboration opportunities.</p>
-        <a href="mailto:mdmamunarrashidplus@gmail.com" class="contact-btn">Send Email</a>
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-subtitle">Contact</p>
+          <h2>Reach out to discuss your project or ask any questions about my work.</h2>
+        </div>
+        <a href="mailto:mdmamunarrashidplus@gmail.com" class="btn btn-primary">Send Email</a>
       </div>
     </section>
-
   </main>
-  
 </body>
 </html>
